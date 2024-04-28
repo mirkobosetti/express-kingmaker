@@ -9,7 +9,7 @@ import money from "./routes/money.mjs";
 const PORT = process.env.PORT || 9996;
 const app = express();
 
-var allowedOrigins = ["http://localhost:8080", "http://192.168.1.10:8080", "http://mirkobosetti.drinkando.com"];
+var allowedOrigins = ["http://localhost:8080", "http://192.168.1.10:8080", "https://www.kingmaker.mirkobosetti.com"];
 
 app.use(
   cors({
